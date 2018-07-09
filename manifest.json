@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Side by side GeoJSON",
+	"description": "View a list of GeoJSON features in the National Library of Scotland's side-by-side map viewer",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://maps.nls.uk/geo/explore/side-by-side/*"],
+      "js": ["content-script.js"],
+			"css": ["style.css"]
+    }
+  ],
+
+	"web_accessible_resources": ["script.js", "style.css"]
+
+}
