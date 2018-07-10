@@ -19,5 +19,8 @@ These files are set up as an unpacked/temporary browser extension. They have bee
  * Chrome: Go to chrome://extensions/, enable Developer Mode, click "Load Unpacked", and select the folder to which you copied the extension.
 * Go to http://maps.nls.uk/geo/explore/side-by-side/ and you should now see a new panel at the top of the screen to enable you to navigate through your coordinates.
 
+## Example
+See https://twitter.com/dr_pda/status/1016592879232282624
+
 ## Licence
 Files in this repository are covered by the MIT license, see `LICENSE`.
